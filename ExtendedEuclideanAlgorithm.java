@@ -57,8 +57,10 @@ public class ExtendedEuclideanAlgorithm {
 		
 		for (int j = 0; j < rows.size(); j++)
 		{
-			System.out.print(rows.get(j)[0] + "  " + rows.get(j)[1] + "  " + rows.get(j)[2] + "\n");
+			System.out.print("Row " + j + ": " + rows.get(j)[0] + "  " + rows.get(j)[1] + "  " + rows.get(j)[2] + "\n");
 		}
+		
+		System.out.print("x = " + rows.get(rows.size() - 2)[0] + ", y = " + rows.get(rows.size() - 2)[1] + ", gcd(" + a + ", " + b + ") = " + rows.get(rows.size() - 2)[2]);
 		
 		scan.close();
 
